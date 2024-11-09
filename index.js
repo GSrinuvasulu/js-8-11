@@ -1,5 +1,5 @@
-let container = document.querySelector(".container");
-        let searchInput = document.querySelector(".search-input");
+let container = document.querySelector("container");
+        let searchInput = document.querySelector("search-input");
 
         searchInput.addEventListener("input", () => {
             let data = JSON.parse(localStorage.getItem("data")) || [];
