@@ -31,7 +31,7 @@ let container = document.querySelector(".container");
             if (data.length === 0) {
                 container.innerHTML = "<p>No results found</p>";
             } else {
-                data.slice(0, 20).forEach(obj => { 
+                data.forEach(obj => { 
                     let div = document.createElement("div");
                     div.className = "item";
                     div.innerHTML = `
